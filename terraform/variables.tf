@@ -18,13 +18,13 @@ variable "rg_location" {
 variable "app_service_plan" {
   type        = string
   description = "The name of the App Service plan"
-  default     = "CodeAcademy-Net-AppServicePlan"
+  default     = "CodeAcademy-Net-AppServicePlanArman"
 }
 
 variable "app_service" {
   type        = string
   description = "The name of the App Service"
-  default     = "CodeAcademy-Net-AppService"
+  default     = "CodeAcademy-Net-AppServiceArman"
 }
 
 variable "location" {
